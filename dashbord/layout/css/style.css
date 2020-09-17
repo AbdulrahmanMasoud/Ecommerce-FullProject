@@ -1,0 +1,66 @@
+
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+/*    background-color: #f4f4f4;*/
+   
+}
+section{
+  /*padding: 40px 0;*/
+    position: relative;
+}
+a{color: #000;}
+a:hover{text-decoration: none;}
+
+button:focus{outline: 0;}
+/*****************************************************************************/
+
+
+
+nav li.nav-item.dropdown.position-absolute {
+    right: 5%;
+}
+.dropdown-menu.show {
+    left: -45px;
+}
+
+/*****************************************************/
+
+.category-mange ul li .edi-del{
+    transition: all .5s;
+    right: -130px;
+}
+.category-mange ul li:hover .edi-del{
+    right:0;
+
+}
+.category-mange .card-header .ordering .active{
+color:darkgrey;
+font-weight: bold;
+}
+.category-mange ul li p{
+    color: #717171;
+    font-weight: 100;
+    font-size: 15px;
+}
+/**************************/
+.letst-comments p{
+    font-size: 15px;
+    font-weight: 100;
+    color: #7b7b7b;
+}
+.letst-comments .del-comment{
+    right: -55px;
+    transition: all .3s;
+    
+}
+.letst-comments .del-comment a.delete{color: red;}
+.letst-comments .del-comment a.approve{color: green;}
+.letst-comments .card:hover .del-comment{
+    right: 0px;
+}
+
